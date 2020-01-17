@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* css Document Latihan2_4*/
+
+*{
+  			margin: 0px;
+  			padding: 0px;
+  			font-size: 14px;
+  			font-family: Arial, Helvetica, sans-serif;
+  		}
+  		body{
+  			background-image:url(../images/background/NYC01_WCTHWALL.jpg);
+  			background-repeat:no-repeat;
+  			background-size:cover;
+  			background-attachment: fixed;
+  		}
+  		#wrapper{
+  			width: 950px;
+  			min-height: 780px;
+  			margin: auto;
+  		}
+  		#wrapper #header{
+  			height: 60px;
+  			padding-top: 20px;
+  		}
+  		#wrapper #menu{
+  			height: 50px;
+  			background-color: #FF6600;	
+  		}
+  		#wrapper #menu ul{
+  			list-style-type: none;
+  		}
+  		#wrapper #menu ul li{
+  			float: left;
+  			width: 237px;
+  			text-align: center;
+  		}
+  		#wrapper #menu ul li a{
+  			font-size: 24px;
+  			text-decoration: none;
+  			color: #000033;
+  			line-height: 50px;
+  		}
+  		#wrapper #menu ul li a:hover{
+  			color: #FFFF99;
+  		}
+  		#wrapper #content{
+  			min-height: 600px;
+  			overflow: hidden;
+  			background-color: rgba(249,229,32,0.7);
+  		}
+  		#wrapper #content #content_left{
+  			width: 620px;
+  			min-height: 560px;
+  			float: left;
+  			padding-top: 20px;
+  			padding-left: 20px;
+  			padding-right: 10px;
+  			padding-bottom: 20px;
+  		}
+  		#wrapper #content #content_left h2{
+  			font-size: 36px;
+  			margin-bottom: 25px;
+  		}
+  		#wrapper #content #content_left p img{
+  			width: 300px;
+  			height: auto;
+  			float: left;
+  			margin-right: 10px;
+  			margin-bottom: 10px;
+  		}
+  		#wrapper #content #content_left p{
+  			text-align: justify;
+  			margin-bottom: 20px;
+  		}
+  		#wrapper #content #content_right{
+  			width: 270px;
+  			min-height: 560px;
+  			float: right;
+  			padding-top: 20px;
+  			padding-bottom: 20px;
+  			padding-left: 10px;
+  			padding-right: 20px;
+  		}
+  		#wrapper #content #content_right h2{
+  			font-size: 36px;
+  			text-align: center;
+  			margin-bottom: 25px;
+  		}
+  		#wrapper #content #content_right img{
+  			width: 100%;
+  			height: auto;
+  			border:dashed #FF6600 2px;
+  			margin-bottom: 20px;
+  		}
+  		#wrapper #content #content_right h3{
+  			font-size: 24px;
+  			text-align: center;
+  			margin-bottom: 10px;
+  		}
+  		#wrapper #content #content_right h4{
+  			font-size: 18px;
+  			text-align: center;
+  			margin-bottom: 20px;
+  		}
+		#wrapper #content #content_right p{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		#wrapper #content #content_right #socialmedia{
+			text-align: center;
+		}
+		#wrapper #content #content_right #socialmedia img{
+			width: 60px;
+			height: auto;
+			border:none;
+		}
+  		#wrapper #footer{
+  			height: 50px;
+  			background-color:#330000;
+  			font-size: 18px;
+  			color: #FFFF99;
+  			padding-left: 20px;
+  			line-height: 50px;
+  		}
+  		#wrapper #header h1{
+  			font-size: 35px;
+  			color: #FFFFCC;
+  		}

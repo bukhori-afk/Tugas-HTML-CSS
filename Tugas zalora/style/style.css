@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    width:100%;
+	height:auto;
+}
+.headerr{
+	width: 100%;
+	height: 140px;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background-color: black;
+}
+
+.container{
+	width: 100%;
+	min-height: 45px;
+	margin: auto;
+}
+
+#header-1{
+	height: 70px;
+	width: 220px;
+	margin-left: 100px;
+	float: left;
+	padding-left: 35px;
+	overflow: hidden;
+}
+#header-1 h5{
+	font-size: 35px;
+	padding-top: 10px;
+	color: white;
+	text-align: center;
+	font-weight: 20;
+}
+
+.header-2{
+	height: 70px;
+	width: 780px;
+	margin-right: 100px;
+	float: right; 
+}
+
+.menu li{
+	list-style-type: none;
+	text-align: center;
+	padding-top: 20px;
+	display: inline;
+}
+.menu a{
+	font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 65px;
+	text-align: center;
+	float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding-top: 20px;
+	margin-left: 10px;
+}
+.menu a:hover{
+    color:rgb(74, 5, 233);
+}
+
+.menu img{
+	padding-top: 20px;
+	float: right;
+	padding-left: 10px;
+}
+.header-bottom{
+	width: 1000px;
+	height: 70px;
+	background-color:white;
+	margin-left: 150px;
+}
+
+.input{
+	display: inline-block;
+	width: 300px;
+	height: 50px;
+	margin-top: 10px;
+	padding-top: 8px;
+}
+
+.input input[type=text]{
+	padding: 5px 10px 5px 10px;
+	border-radius: 8px;
+	width: 200px;
+}
+.input input[type=button]{
+	padding: 3px 10px 3px 10px;
+	
+}
+
+.notive{
+	width: 1000px;
+	height: 70px;
+}
+.notive img{
+	padding-top: 10px;
+	margin-bottom: -10px;
+	padding-left: 5px;
+}
+.content{
+	width: 1000px;
+	min-height: 500px;
+	margin: auto;
+}
+.content-1{
+	height: 400px;
+	width: 1000px;
+	padding-left: 15px;
+}
+.content-1-gambar img{
+	height: 350px;
+	width: 1000px;
+}
+.content-1-menu{
+	width: 1000px;
+	height: 50px;
+}
+.content-1-menu img{
+	padding-top: 10px;
+	margin-bottom: -10px;
+	padding-left: 20px;
+}
+.content-2{
+	width: 980px;
+	height: 300px;
+	padding-left: 20px;
+}
+.content-2-gambar1{
+	width: 980px;
+	height: 200px;
+}
+
+
+
+
+
